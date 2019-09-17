@@ -22,8 +22,15 @@ class HighSpeed(object):
         elif x <= 80:
             print("60 euros")
             return "60 euros"
+        elif x <= 85:
+            print("70 euros")
+            return("70 euros")
+        elif x <= 90:
+            print("80 euros") 
+            return("80 euros")       
         else:
             print("Goodbye License")
             return "Goodbye License"
+            
             
 
